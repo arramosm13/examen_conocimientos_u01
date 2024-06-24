@@ -7,9 +7,13 @@ int main(){
     int n;
     float sum;
 	cout<<"Ingrese el numero:";cin>>n;
+    if (n!=0){
     	sum=suma(n);
     	cout<<"La sumatoria total es:"<<sum;
-}		
+    } else{
+        cout<<"Finalizo el programa."<<endl;
+    }	
+}	
 	
 float suma(int a){
     float s=0;
